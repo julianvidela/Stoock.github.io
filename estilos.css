@@ -59,6 +59,7 @@ background-color: rgb(19, 19, 19);
     font-size: 1.5em;
     transition-duration: 150ms;
     cursor: default;
+    letter-spacing: 0.5px;
 
 }
 
@@ -146,6 +147,7 @@ background-color: rgb(19, 19, 19);
   height: 90vh;
   color: #ffffffde;
   font-size: 1.8em;
+  letter-spacing: 0.5px;
   cursor: pointer;
   background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.5),
@@ -164,6 +166,7 @@ h1 {
 
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   padding: 19px 15px;
+  letter-spacing: 0.5px;
  
 }
 
@@ -182,6 +185,7 @@ h1 {
 
 #Nosotros h2 {
   font-size: 2.0em;
+  letter-spacing: 0.5px;
  
 }
 
@@ -274,6 +278,8 @@ h1 {
   padding: 65px;
   font-size: 1.3em;
   cursor: default;
+  font-weight: 900;
+  letter-spacing: 0.5;
 }
 
 #info {
@@ -282,8 +288,9 @@ h1 {
   height: 37vh;
   width: 100%;
   padding: 0% 7%;
-  border: #ffffff solid;
+  border: #ff0000 solid;
   margin: 0;
+  letter-spacing: 0.5px;
 }
 
 .container-info {
@@ -321,12 +328,13 @@ h1 {
 /*  segunda parte de info   */
 #info-2 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 1000;
+  font-weight: 900;
   height: 37vh;
   width: 100%;
   padding: 0% 7%;
   margin: 0;
   border: rgb(255, 255, 255) solid;
+  letter-spacing: 0.5px;
  
   
   
@@ -364,6 +372,7 @@ h1 {
   padding-right: 7px;
   padding: 10px;
   cursor: default;
+  letter-spacing: 0.5px;
   
   
   
@@ -408,6 +417,7 @@ footer h5 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   margin-top: 30px;
+  
   
 }
 
