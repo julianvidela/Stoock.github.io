@@ -16,25 +16,25 @@ body {
 }
 
 /* COMIENZO HEADER */
-header .banner{
+.banner{
+display: flex;
+justify-content: center;
 width: 100%;
 height: 35px;
 background-color: rgb(19, 19, 19);
 }
 
-.banner p{
-  color: #ffffff;
-  font-family:"Fugaz One",sans-serif;
-  text-align: center;
-  padding: 5px;
-  
-}
+
+
+
 
 
 /* ESTO ES EL NAV BAR */
 .container {
   max-width: 1400px;
   margin: auto;
+  height: 100%;
+  
   
   }
 
@@ -43,6 +43,7 @@ background-color: rgb(19, 19, 19);
     position: sticky;
     top: 0;
     z-index: 1;
+    height: 100%;
     
   }
 
@@ -70,6 +71,11 @@ background-color: rgb(19, 19, 19);
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    
+    
+  
+    
     
   }
 
@@ -79,19 +85,30 @@ background-color: rgb(19, 19, 19);
     text-align: center;
     padding: 7px;
     justify-content: space-between;
+    height: 100%;
+    
+   
+    
   }
 
   nav a{
     font-family:"Montserrat",sans-serif;
-    font-weight:bold;
-    font-size: 14px;
+    font-weight: 1000;
+    font-size: 16px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 4px 12px;
+    padding: 0px 12px;
+    height: 100%;
+    margin: auto;
+    
+   
+    
 }
  
 header a:hover {
   color: rgb(186, 2, 2);
+  border-bottom: black solid;
+  
 }
 
 
@@ -136,7 +153,7 @@ h1 {
 #Nosotros {
   text-align: center;
   padding: 14% 5%;
-  height: 50vh;
+  height: 40vh;
   
 
 }
@@ -153,7 +170,7 @@ h1 {
 
 #Nosotros p {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight:1000;
   font-size: 1.0em;
 }
 
@@ -224,7 +241,7 @@ h1 {
 .Zapatillas-card h3 {
   text-align: center;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 1000;
 
 }
 
@@ -239,7 +256,7 @@ h1 {
 
 #info {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 1000;
   height: 37vh;
   width: 100%;
   padding: 0% 7%;
@@ -282,7 +299,7 @@ h1 {
 /*  segunda parte de info   */
 #info-2 {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 1000;
   height: 37vh;
   width: 100%;
   padding: 0% 7%;
@@ -376,6 +393,7 @@ footer a {
   text-decoration: none;
   color: black;
   transition-duration: 150ms;
+  
 }
 
 
@@ -394,10 +412,15 @@ footer a:hover{
 
 /* medidas DESKSTOP */
 @media (min-width:720px){
+  .container{
+    height: 100%;
+  }
 
 header .container{
   flex-direction: row;
   justify-content: space-between;
+  height: 100%;
+  
 
 }
 
@@ -409,10 +432,12 @@ header .container{
 nav{
   flex-direction: row-reverse;
   
+  
 }
 
-header a{
+nav a{
   padding: 0px 15px;
+  
 }
 
  #Nosotros {
@@ -487,5 +512,5 @@ header a{
     
   }
 
-
+  
 }
